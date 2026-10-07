@@ -7,8 +7,8 @@ Cadastre numérique officiel de la République Démocratique du Congo.
 ### 1. Base de données MySQL
 
 ```bash
-mysql -u root -p'minitmoney@sql' < backend/database/schema.sql
-mysql -u root -p'minitmoney@sql' sgfn_rdc < backend/database/seed.sql
+mysql -u root -p'motdepass@sql' < backend/database/schema.sql
+mysql -u root -p'motdepass@sql' sgfn_rdc < backend/database/seed.sql
 ```
 
 ### 2. Backend (port 4001)
